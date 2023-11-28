@@ -3,7 +3,8 @@ import './HeaderLogo.scss';
 
 const HeaderLogo = () => {
   return (
-    <a href="#" className="header__body-logo">
+    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+    <a href="" className="header__body-logo">
       <img src={logo} alt="logo" />
     </a>
   );
