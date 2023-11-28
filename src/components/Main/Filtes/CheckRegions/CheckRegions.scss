@@ -1,0 +1,15 @@
+.filters__regions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  &-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: rgb(50, 47, 47);
+  }
+  & label {
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+}
