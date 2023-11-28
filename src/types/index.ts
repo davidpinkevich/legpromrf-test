@@ -6,3 +6,5 @@ export interface ICompanies {
   info: string;
   img: string;
 }
+
+export type PropsButtonOpen = { open: boolean; handlerButton: () => void };
