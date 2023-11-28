@@ -1,7 +1,11 @@
 .main__items {
-  margin-top: 20px;
+  margin-top: 10px;
   display: grid;
   gap: 45px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+}
+
+.items__open {
+  grid-template-columns: 1fr 1fr;
 }
